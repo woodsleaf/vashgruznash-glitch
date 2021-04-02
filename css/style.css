@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+*{box-sizing: border-box; padding: 0;  margin: 0;}
+body {
+  padding: 4px;
+  width: 100%;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 100%;
+}
+.wrapper{width: 100%; background-color: white; padding: 4px;
+  max-width: 960px; /*820px;*/
+  margin: 0 auto;
+  /*font-size: 1.03rem;*/
+}
+body, a{color: grey;}
+h1{text-align: center; color: darkred;}
+a{text-decoration: none;}
+.fa-vk{color: blue; font-size: 2.4rem;}
+.fa-telegram-plane{color: lightblue;  font-size: 2.4rem;}
+.fa-whatsapp{color: green; font-size: 2.4rem;}
+
+.header{display: flex; justify-content: space-around; flex-wrap: wrap;}
+.header>div{display: flex;  justify-content: space-around; /*background-color: lightgreen;*/ align-items: center;  margin: 2px;}
+.header>div>div>a, .header>div>div>p{display: block; padding: 4px 6px; font-size: 1.4em;}
+.home_img{height: 180px;}
+.almedium{align-items: center;}
+
+@media screen and (max-width: 600px) {
+  .header{justify-content: center;}
+}
